@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
 <!--NAMA WEBSITE-->
-        <title>Autobio 10</title>
+        <title>Autobio Yoga</title>
         <!--GOOGLE FONTS-->
         <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -61,26 +61,37 @@
     <a href="https://yoga-oscar.my.id/" class="button">Official Website</a>
  </div>
 
- <!--FOTO-->
- <div id="foto" class="slider">
-    <div class="slide-track">
-      <div class="slide">
-        <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG_1728.webp" alt="foto 1">
-      </div>
-      <div class="slide">
-        <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220702133256.webp" alt="foto 2">
-      </div>
-      <div class="slide">
-        <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20190915132405.webp" alt="foto 3">
-      </div>
-      <div class="slide">
-        <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220528160939.webp" alt="foto 4">
-      </div>
-      <div class="slide">
-        <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220924170443.webp" alt="foto 5">
-      </div>
+<!--FOTO-->
+<div id="foto" class="foto-wrapper">
+    <div class="slide">
+      <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG_1728.webp" alt="foto 1">
     </div>
-  </div>
+    <div class="slide">
+      <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220702133256.webp" alt="foto 2">
+    </div>
+    <div class="slide">
+      <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20190915132405.webp" alt="foto 3">
+    </div>
+    <div class="slide">
+      <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220528160939.webp" alt="foto 4">
+    </div>
+    <div class="slide">
+      <img src="https://yoga-oscar.my.id/wp-content/uploads/2022/11/IMG20220924170443.webp" alt="foto 5">
+    </div>
+<!-- Tombol navigasi -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<script src="animasi.js"></script>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" onclick="scrollToTop()">🡹</button>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
     </body>
 
 <!--FOOTER-->
